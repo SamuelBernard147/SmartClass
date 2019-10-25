@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_absen"
+            android:title="Absen Seluruh Mapel" />
+        <item
+            android:id="@+id/nav_per_mapelpel"
+            android:title="Pilih Mata Pelajaran" />
+
+    </group>
+
+    <item android:title="Setting">
+        <menu>
+            <item
+                android:id="@+id/nav_rest_pw"
+                android:title="@string/reset_password" />
+            <item
+                android:id="@+id/nav_logout"
+                android:title="@string/log_out" />
+        </menu>
+    </item>
+
+</menu>

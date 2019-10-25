@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/mapel_siswa"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mapel"/>
+
+            <TextView
+                android:id="@+id/total_hadir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="72dp"
+                android:paddingLeft="60dp"
+                android:text="Total"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/total_tidak_hadir"
+                android:textSize="16sp"
+                android:layout_marginLeft="32dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total"/>
+
+            <TextView
+                android:id="@+id/total_izin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="38dp"
+                android:text="Total"
+                android:textSize="16sp" />
+
+
+        </TableRow>
+
+    </TableLayout>
+
+
+</LinearLayout>
