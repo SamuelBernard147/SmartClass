@@ -1,2 +1,6 @@
 # SmartClass
-Aplikasi managemen absensi sekolah untuk guru, dan siswa
+Aplikasi managemen absensi belajar mengajar untuk guru, dan siswa
+TODO :
+- 
+- 
+- 
